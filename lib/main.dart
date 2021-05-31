@@ -41,8 +41,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: () {
                 setState(() {
-
-
+                  changeDiceFace();
                 });
 
               },
@@ -53,7 +52,7 @@ class _DicePageState extends State<DicePage> {
             child: FlatButton(
               onPressed: () {
                 setState(() {
-
+                  changeDiceFace();
                 });
 
               },
